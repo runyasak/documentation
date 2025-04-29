@@ -46,7 +46,7 @@
 		"react": "^19.1.0",
 		"typescript": "^5.8.3",
 		"view-transitions-api-types": "^0.1.1",
-		"vite": "^6.3.2",
+		"vite": "npm:rolldown-vite@latest",
 		"vite-bundle-analyzer": "^0.19.0",
 		"vite-plugin-node-polyfills": "^0.23.0",
 		"vitepress": "^1.6.3",
@@ -55,7 +55,7 @@
 		"vue": "^3.5.13"
 	},
 	"overrides": {
-		"vite": "^6.3.2",
+		"vite": "npm:rolldown-vite@latest",
 		"vitepress": "^1.6.3",
 		"vue": "^3.5.13"
 	},

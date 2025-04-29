@@ -58,6 +58,9 @@ export default defineConfig({
 				usePolling: true
 			}
 		},
+		experimental: {
+			enableNativePlugin: true
+		},
 		plugins: [
 			tailwindcss() as any,
 			process.env.NODE_ENV === 'production' ? llmstxt() : [],
